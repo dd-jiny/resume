@@ -13,7 +13,7 @@ const skill: ISkill.Payload = {
         { title: 'MyBatis' },
       ],
     },
-    { category: 'Web', items: [{ title: 'JSP' }, { title: 'jQuery' }] },
+    { category: 'Web', items: [{ title: 'JSP' }, { title: 'jQuery' }, { title: 'React' }] },
     { category: 'Infra', items: [{ title: 'Kafka' }, { title: 'Redis' }] },
     { category: 'DB', items: [{ title: 'MySQL' }, { title: 'PostgreSQL' }, { title: 'Oracle' }] },
   ],

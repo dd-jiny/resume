@@ -29,6 +29,7 @@ const experience: IExperience.Payload = {
             'MyBatis',
             'JSP',
             'jQuery',
+            'React',
             'Kafka',
             'MySQL',
             'PostgreSQL',
