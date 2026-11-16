@@ -13,7 +13,8 @@ const education: IEducation.Payload = {
     {
       title: '루퍼스 부트캠프',
       subTitle: '루프팩 백엔드 3기',
-      note: '재직자 대상 백엔드 부트캠프. 대규모 트래픽에 대비한 서버 설계와 운영 학습',
+      note:
+        '재직자 대상 백엔드 부트캠프. 대규모 트래픽에 대비한 서버 설계와 운영, AI를 활용한 개발 방식 학습',
       startedAt: '2026-01',
       endedAt: '2026-04',
     },
