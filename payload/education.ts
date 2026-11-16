@@ -6,7 +6,9 @@ const education: IEducation.Payload = {
   list: [
     {
       title: '스파르타 내일배움캠프',
-      subTitle: '단기 엔지니어 취업 부트캠프 1회차',
+      subTitle: '단기 엔지니어 양성 심화과정',
+      note:
+        '백엔드 엔지니어 심화 부트캠프. 대용량 트래픽 환경의 성능 개선과 안정적인 운영, AI 도구를 활용한 개발 실무 학습',
       startedAt: '2026-10',
       endedAt: '2026-11',
     },
