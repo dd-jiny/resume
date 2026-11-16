@@ -14,7 +14,7 @@ const skill: ISkill.Payload = {
       ],
     },
     { category: 'Web', items: [{ title: 'JSP' }, { title: 'jQuery' }] },
-    { category: 'Infra', items: [{ title: 'Kafka' }] },
+    { category: 'Infra', items: [{ title: 'Kafka' }, { title: 'Redis' }] },
     { category: 'DB', items: [{ title: 'MySQL' }, { title: 'PostgreSQL' }, { title: 'Oracle' }] },
   ],
 };
