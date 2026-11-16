@@ -27,6 +27,13 @@ export function CommonRows({
         <Col sm={12} md={9}>
           {right.title ? <h4>{right.title}</h4> : ''}
           {right.subTitle ? <i style={Style.gray}>{right.subTitle}</i> : ''}
+          {right.note ? (
+            <div className="mt-1">
+              <small style={Style.gray}>{right.note}</small>
+            </div>
+          ) : (
+            ''
+          )}
           {right.descriptions ? (
             <CommonDescription
               descriptions={right.descriptions}

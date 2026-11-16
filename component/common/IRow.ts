@@ -12,6 +12,8 @@ export declare namespace IRow {
   export interface Right {
     title?: string;
     subTitle?: string;
+    /** ### 부제 아래 작은 글씨 설명 */
+    note?: string;
     descriptions?: Description[];
   }
 

@@ -11,8 +11,10 @@ const education: IEducation.Payload = {
       endedAt: '2026-11',
     },
     {
-      title: '루프팩 (Loopers)',
-      subTitle: '백엔드 과정 · 경력 1년 이상 백엔드 개발자 대상',
+      title: '루퍼스 부트캠프',
+      subTitle: '루프팩',
+      note:
+        '경력 1년 이상 백엔드 개발자 대상 과정. AI와 설계의 기본기, 데이터 정합성과 성능, 안정성과 확장 구조, 집계와 운영 설계를 다룸',
       startedAt: '2026-01',
       endedAt: '2026-04',
     },
