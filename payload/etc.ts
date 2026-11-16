@@ -6,6 +6,8 @@ const etc: IEtc.Payload = {
   list: [
     {
       title: 'SQLD',
+      subTitle: '한국데이터산업진흥원',
+      startedAt: '2021-06',
     },
   ],
 };
