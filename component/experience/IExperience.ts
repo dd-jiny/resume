@@ -52,6 +52,12 @@ export declare namespace IExperience {
      */
 
     descriptions: string[];
+
+    /** ### 업무 목록 위에 두는 소개 문장 */
+    summary?: string;
+
+    /** ### 소개 문장 아래에 두는 구성도 이미지 */
+    diagram?: string;
     /**
      * ### (직장)경험의 키워드
      *

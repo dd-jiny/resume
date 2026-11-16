@@ -92,6 +92,18 @@ export default function ExperienceRow({
           </Col>
           <Col sm={12} md={9}>
             <i style={Style.gray}>{position.title}</i>
+            {position.summary ? <p className="pt-2 mb-2">{position.summary}</p> : null}
+            {position.diagram ? (
+              <div className="py-2">
+                <a href={position.diagram} target="_blank" rel="noreferrer noopener">
+                  <img
+                    src={position.diagram}
+                    alt="데이터 연계 플랫폼 구성도"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </a>
+              </div>
+            ) : null}
             <ul className="pt-2">
               {position.descriptions.map((description, descIndex) => (
                 <li key={descIndex.toString()}>{description}</li>
